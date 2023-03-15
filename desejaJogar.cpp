@@ -22,7 +22,6 @@ void desejaJogar()
             std::cout << "Saindoooooooooooooooooooooooooooooooooooooooooo " << std::endl; 
             exit(0); 
             break;         
-        }
-        
+        }        
     }
 }
