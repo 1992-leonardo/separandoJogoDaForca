@@ -1,7 +1,5 @@
 #include <iostream>
 
-using namespace std;
-
 void desejaJogar()
 {
     std::cout << "Deseja participar do nosso jogo?" << std::endl;
@@ -14,7 +12,7 @@ void desejaJogar()
         if (resposta == 'S' || resposta == 's'){
             std::cout << "Legal, vamos iniciar o nosso jogo! " << std::endl;
             std::cout << " *_______________________________* " << std::endl;
-            std::cout << endl;
+            std::cout << std::endl;
             break;
         }
         else {
